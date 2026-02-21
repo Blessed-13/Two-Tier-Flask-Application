@@ -61,4 +61,16 @@
   - Automated image push to Docker Hub / AWS ECR
   - EC2 provisioning via Ansible
   - Future project: Kubernetes + ArgoCD GitOps deployment
+---
 
+## 🚀 DevOps Automation (Phase 2)
+
+Infrastructure provisioning and CI/CD automation for this project is implemented in a separate repository:
+
+👉 [two-tier-devops-infra](LINK_HERE)
+
+Includes:
+- Ansible-based EC2 provisioning
+- Jenkins automation
+- Trivy vulnerability scanning
+- Docker image build & push pipeline
